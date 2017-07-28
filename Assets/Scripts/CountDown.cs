@@ -21,7 +21,7 @@ public class CountDown : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         Invoke("Timer", 2);        
-	}
+    }
 
     void Timer()
     {
