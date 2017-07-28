@@ -4,8 +4,7 @@ using UnityEngine.UI;
 
 public class CountDown : MonoBehaviour {
     
-    int time = 60;
-
+    private int time = 60;
     private Text text;
     private ScoreKeeper sk;
     private LevelManager lm;
